@@ -6,6 +6,20 @@ This project explores machine learning techniques to predict housing prices usin
 
 The objective is to evaluate different regression models and determine which algorithm provides the best predictive performance for housing price estimation.
 
+## AWS Pipeline
+
+The repository also includes an earlier version of the data pipeline that
+demonstrates loading data from AWS S3, performing feature engineering,
+and exporting a feature matrix back to S3.
+
+This notebook is included to demonstrate experience with:
+
+- AWS S3
+- boto3
+- cloud data pipelines
+- feature engineering
+- serialization with pickle
+
 ---
 Machine learning workflow including:
 
